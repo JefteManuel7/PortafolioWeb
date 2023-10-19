@@ -1,0 +1,276 @@
+
+main {
+    margin-bottom: 0;
+}
+
+
+header h1 {
+    margin-top: 0;
+    width: 70%;
+    height: 40px;
+}
+
+header nav{
+    margin-left:20%;
+    width:100%;
+    height: 40px;
+    font-size: 20px;
+   
+  
+}
+
+
+.container nav{
+    text-align: center;
+}
+
+
+
+.mt-4, .my-4 {
+    margin-top: 0rem!important;
+}
+
+
+#information{
+    background-color: #333;
+    padding: 39px;
+   
+   
+}
+
+
+#face{
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    
+}
+
+#about_my{
+    background-color:#333;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0;
+
+
+}
+
+#my_contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar horizontalmente en el contenedor */
+}
+
+#my_contact i {
+    margin-bottom: 10px; /* Espacio entre íconos y texto */
+}
+
+#my_contact span {
+    text-align: center; /* Centrar el texto horizontalmente */
+}
+
+.neon-text {
+    font-size: 20px;
+    color: #808080; /* Color gris */
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Arial', sans-serif;
+    animation: neon 2s linear infinite;
+}
+
+@keyframes neon {
+    0% {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff, 0 0 50px #fff;
+    }
+    50% {
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #fff, 0 0 25px #fff;
+    }
+    100% {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff, 0 0 50px #fff;
+    }
+}
+
+  #cv {
+    background-color: #f0f0f0;
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}   
+
+
+
+#name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Estilos para secciones */
+.section {
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.section p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+
+/* Estilos para el botón de descarga -----------------------------------*/
+#downloadCVButton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* Color de fondo azul */
+    color: #fff; /* Color del texto blanco */
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#downloadCVButton:hover {
+    background-color: #0056b3; /* Cambia el color de fondo al pasar el cursor */
+}
+
+/* Estilos para la ventana modal */
+.modal {
+    display: none; /* Oculta la ventana modal de forma predeterminada */
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo oscuro semitransparente */
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: 10% auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    position: relative;
+    border-radius: 4px;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    color: #555;
+}
+
+.close:hover {
+    color: #000; /* Cambia el color al pasar el cursor */
+}
+
+
+
+  .header-logo {
+    float: left; /* Hace que el logo flote a la izquierda */
+    margin-right: 20px; /* Ajusta el margen derecho para separar el logo del título */
+    margin-top: 0px; /* Ajusta el margen superior para centrar verticalmente el logo */
+    
+}
+
+
+
+/* Para pegarlo al borde izquierdo */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 0;
+}
+
+h1 {
+    margin: 0; /* Elimina cualquier margen predeterminado del título */
+}
+
+
+.btn-gris {
+    background-color: #5e5454; /* Color gris */
+    color: #fff; /* Color de texto blanco */
+    /* Puedes personalizar más estilos según tus preferencias */
+}
+
+
+#icon_conta {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column; /* Cambiar la dirección de la disposición a columna */
+    align-items: center; /* Centrar los elementos horizontalmente */
+    text-align: center; /* Alinear el texto en el centro */
+    padding: 20px 0;
+    margin-right: 20px;
+
+}
+
+.i_icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.i_icons li {
+    font-size: 30px;
+    margin-left: 20px; /* Espacio entre los íconos */
+    color: #fff;
+}
+
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 20px;
+}
+
+
+
+
+.section-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Tres columnas en cada fila */
+    gap: 20px; /* Espacio entre las secciones */
+}
+
+
+
+
+.neo {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 4px solid transparent;
+    border-image: linear-gradient(45deg, #ff00ff, #00ffff);
+    border-image-slice: 1;
+    animation: neonMove 5s linear infinite alternate;
+}
+
+@keyframes neonMove {
+    0% {
+        transform: translateX(0) translateY(0);
+    }
+    100% {
+        transform: translateX(10px) translateY(10px);
+    }
+}

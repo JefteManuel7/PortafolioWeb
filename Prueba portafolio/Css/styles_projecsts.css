@@ -1,0 +1,47 @@
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Tres columnas por fila */
+    gap: 20px; /* Espacio entre las tarjetas */
+    padding: 20px; /* Espacio interior del contenedor */
+    justify-content: space-between; /* Alineación horizontal */
+    align-content: start; /* Alineación vertical en la parte superior */
+}
+
+/* Estilos para las tarjetas (ajústalos según tus necesidades) */
+.card {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Añade estilos adicionales para tus tarjetas según sea necesario */
+body{
+    /*background-image: url('fondo1.jpg');*/
+    background-color: #1d121233;
+
+}
+
+.card-body{
+    color: aliceblue;
+    background-color: rgba(24, 22, 22, 0.7);
+    align-items: center;
+}
+
+
+.center-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Ajusta la altura del div para centrar verticalmente la imagen */
+}
+
+footer{
+    height: 80px;
+    font-size: 20px;
+}
+
+#exit{
+    font-size: 20px;
+}
